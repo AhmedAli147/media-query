@@ -1,0 +1,59 @@
+body{
+   background-color: blue;
+} 
+
+/* media query lagai or kaha jb website ki width 600  */
+/* ya 600 sy kam ho to body h1 or p ki properties ko change krdo */
+/* isi trhan media query sy ap specific width define krky  */
+/* apny element ki properties change krskty hyn */
+/* ya xyz jo bh jesy responsiveness */
+
+ @media only screen and (max-width:600px){
+
+    body{
+        background: radial-gradient(blue,red);
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width:300px){
+
+    body{
+        background: radial-gradient(#fff,red);
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+}
+     
+
+     /* media query lagai kaha jb website ki width 600px ya ussy kam ho  */
+     /* to img ki width 400px krdo */
+     /* or jb website ki width 300px ho to */
+     /* img ki width 200px krdo */
+
+
+@media only screen and (max-width:600px){
+    img{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width:300px){
+    img{
+        width: 200px;
+    }
+}
